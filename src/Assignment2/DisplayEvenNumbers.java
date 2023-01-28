@@ -1,0 +1,17 @@
+package Assignment2;
+
+public class DisplayEvenNumbers {
+
+	public static void main(String[] args) {
+		
+	System.out.println("The Even Numbers are:");
+		
+		for (int i = 100; i < 125; i++) {
+		
+			if (i % 2 !=1) {
+			
+				System.out.println(i + " ");
+			}
+		}
+	}
+}
